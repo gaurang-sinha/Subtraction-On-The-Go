@@ -18,7 +18,7 @@ function getOptionsFromNum(num){
         let num = numb[getRandomFromArray(numb)];
         option.push(num);
     }
-    let indextoRemove = getRandomFromArray(option);
+    let indextoRemove = getRadomNumer(1,3);
     return {
         num: parseInt(option.join('')),
         indextoRemove
