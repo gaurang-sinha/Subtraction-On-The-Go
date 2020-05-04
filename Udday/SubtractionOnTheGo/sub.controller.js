@@ -44,7 +44,7 @@ function getSubtrahend(subtrahend, borrowFlag){
     let min = 1;
     let max = 4;
     for(let i = 0; i< subtrahend; i++){
-        if(i != 0 && borrowFlag == 1){
+        if(i == 0 && borrowFlag == 1){
             min = 5;
             max = 9;
         }
